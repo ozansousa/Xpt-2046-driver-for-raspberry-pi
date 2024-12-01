@@ -39,5 +39,6 @@ Instructions:
 4. Run python /home/[your username]/touchmodule/touch_ctr.py
 5. Paste python /home/[your username]/touchmodule/touch_ctr.py & into /etc/rc.local
 
+If touch is inverted try to change the flipped parameter in touch_ctr.py
 
 Tested with ILI9488 display and xpt2046 touch chip, should work on any display with touch.
