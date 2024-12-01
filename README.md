@@ -5,7 +5,7 @@ Use for Rpi 3 and up, including all Zero models
 Gpio Pinout:
 
 Raspberry Pi      Xpt2046
-SCLK_1 (GPIO21) |	CLK
+SCLK_1 (GPIO21) |	CLK <br>
 CE_1 (GPIO17)	  | CS
 MOSI_1 (GPIO20)	| DIN
 MISO_1 (GPIO19)	| DO
