@@ -33,6 +33,7 @@ Gpio Pinout:
 </table>
 
 Instructions:
+0. Install pyautogui with pip install pyautogui
 1. Paste code into /home/[your username]/touchmodule
 2. Run python /home/[your username]/touchmodule/touch_ctr.py
 3. Paste python /home/[your username]/touchmodule/touch_ctr.py & into /etc/rc.local
