@@ -32,12 +32,12 @@ Gpio Pinout:
   </tr>
 </table>
 
-Instructions: <br>
-0. Install pyautogui with pip install pyautogui <br>
-1. Paste code into /home/[your username]/touchmodule
-2. Fill in parameters in touch_ctr.py
-3. Run python /home/[your username]/touchmodule/touch_ctr.py
-4. Paste python /home/[your username]/touchmodule/touch_ctr.py & into /etc/rc.local
+Instructions:
+1. Install pyautogui with pip install pyautogui
+2. Paste code into /home/[your username]/touchmodule
+3. Fill in parameters in touch_ctr.py
+4. Run python /home/[your username]/touchmodule/touch_ctr.py
+5. Paste python /home/[your username]/touchmodule/touch_ctr.py & into /etc/rc.local
 
 
 Tested with ILI9488 display and xpt2046 touch chip, should work on any display with touch.
