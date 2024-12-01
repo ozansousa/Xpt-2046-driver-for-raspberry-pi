@@ -7,46 +7,30 @@ Gpio Pinout:
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Raspberry Pi</th>
+    <th>Xpt2046</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>SCLK_1 (GPIO21)</td>
+    <td>CS</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>CE_1 (GPIO17)</td>
+    <td>CLK</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+    <td>MOSI_1 (GPIO20)</td>
+    <td>DIN</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
+    <td>MISO_1 (GPIO19)</td>
+    <td>DO </td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
+    <td>GPIO26</td>
+    <td>IRQ</td>
   </tr>
 </table>
-SCLK_1 (GPIO21) |	CLK <br>
-CE_1 (GPIO17)	  | CS <br>
-MOSI_1 (GPIO20)	| DIN <br>
-MISO_1 (GPIO19)	| DO <br>
-GPIO26	        | IRQ <br>
 
 Instructions:
 1. Paste code into /home/[your username]/touchmodule
